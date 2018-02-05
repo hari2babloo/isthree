@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.hari.isthree.Firstpage">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="10dp"
+        app:srcCompat="@drawable/logo"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="284dp"
+        android:layout_height="wrap_content"
+        android:drawableStart="?android:attr/fingerprintAuthDrawable"
+        android:ems="10"
+        android:hint="Mobile/Email"
+        android:inputType="textPersonName"
+        android:textColor="#1A2D52"
+        android:textColorHighlight="#1A2D52"
+        android:textColorHint="#1A2D52"
+        android:textColorLink="#1A2D52"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="260dp" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="287dp"
+        android:layout_height="wrap_content"
+        android:drawableStart="@android:drawable/ic_secure"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#1A2D52"
+        android:textColorHighlight="#1A2D52"
+        android:textColorHint="#1A2D52"
+        android:textColorLink="#1A2D52"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="329dp" />
+
+    <Button
+        android:id="@+id/signin"
+        android:layout_width="148dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="5dp"
+        android:background="#1A2D52"
+        android:text="SIGNIN"
+        android:textColor="@android:color/background_light"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="384dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:text="Dont Have an Account?? Signup"
+        android:textColor="#1A2D52"
+        android:textSize="20sp" />
+</LinearLayout>
