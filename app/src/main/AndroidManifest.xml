@@ -17,7 +17,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".Firstpage" />
-        <activity android:name=".DashPage"></activity>
+        <activity android:name=".DashPage" />
+        <activity android:name=".pickup" />
+        <activity android:name=".Wallet" />
+        <activity android:name=".Signup"></activity>
     </application>
 
 </manifest>

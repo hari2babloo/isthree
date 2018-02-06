@@ -24,5 +24,14 @@ class Firstpage : AppCompatActivity() {
             val  intent = Intent(this,DashPage::class.java)
             startActivity(intent)
         }
+
+        signuptext.setOnClickListener {
+            val  intent = Intent(this,Signup::class.java)
+            startActivity(intent)
+
+
+        }
+
+
     }
 }

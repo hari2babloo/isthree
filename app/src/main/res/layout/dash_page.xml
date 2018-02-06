@@ -26,11 +26,12 @@
         android:orientation="horizontal">
 
         <ImageButton
+            android:id="@+id/pickup"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_margin="20dp"
             android:layout_weight="48"
-            android:background="@drawable/pickup" />
+            android:background="@drawable/android_pick" />
 
         <View
             android:layout_width="2dp"
@@ -38,11 +39,12 @@
             android:background="@color/bluee" />
 
         <ImageButton
+            android:id="@+id/wallet"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_margin="20dp"
             android:layout_weight="48"
-            android:background="@drawable/wallet"
+            android:background="@drawable/android_wallet"
             android:text="wallet"
             android:textAlignment="viewEnd" />
 
